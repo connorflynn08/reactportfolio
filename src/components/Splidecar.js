@@ -6,7 +6,7 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 const Splidecar = () => {
     return (
         <div>
-             <h1>Projects</h1>
+             <h1 id="projects">Projects</h1>
 
             <div class="splidebox">
             <Splide
