@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Body from './components/Body'
+import Splidecar from './components/Splidecar'
 
 function App() {
   return (
-   <div class="container">
-     <h1>Connor Flynn - Web Developer</h1>
+   <div>
+     <Body />
+     <Splidecar />
    </div>
+     
   );
 }
 
